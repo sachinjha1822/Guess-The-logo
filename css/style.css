@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 100vh;
+}
+.header-title {
+  font-weight: 1000;
+  background: -webkit-linear-gradient(70deg, #33ccff 0%, #ff99cc 100%);
+  -webkit-background-clip: text;
+  background-clip: text; /* Added for compatibility */
+  -webkit-text-fill-color: transparent;
+}
+input[type="text"] {
+  text-align: center;
+  min-width: 280px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+input[type="text"]:focus {
+  border: 1px solid #ff9100;
+  box-shadow: 0 10px 20px #ff880079;
+}
+input[type="button"],
+.reveal,
+.skip {
+  min-width: 300px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ff9100;
+  outline: none;
+  border-radius: 20px;
+  background: #ff9100;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+input[type="button"]:hover {
+  border: 1px solid #ff9100;
+  background: white;
+  color: #ff9100;
+}
+.reveal,
+.skip {
+  min-width: 147px;
+  margin-bottom: 10px;
+}
+.skip {
+  background: red;
+  border: 1px solid red;
+}
+.skip:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+.reveal {
+  background: black;
+  border: 1px solid black;
+}
+.reveal:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.all-items-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+.qustion {
+  max-width: 300px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.hinl-place {
+  width: 50%;
+  min-width: 153px;
+  font-size: 100px;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 20px;
+}
+.alert-box {
+  max-width: 300px;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 20px;
+  padding: 6px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  padding: 23px;
+  text-align: center;
+  background: #ffffff; /* Optional: Background color for the footer */
+}
